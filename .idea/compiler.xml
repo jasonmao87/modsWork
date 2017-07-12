@@ -6,16 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="api" />
         <module name="rpcServer" />
+        <module name="userCoreMod" />
         <module name="webApp" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="api" target="1.5" />
-      <module name="modsWork" target="1.5" />
-      <module name="rpcServer" target="1.5" />
-      <module name="userCore" target="1.5" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="api" target="1.8" />
+      <module name="modsWork" target="1.8" />
+      <module name="rpcServer" target="1.8" />
+      <module name="userCoreMod" target="1.8" />
       <module name="webApp" target="1.8" />
     </bytecodeTargetLevel>
   </component>
