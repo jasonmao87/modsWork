@@ -21,7 +21,7 @@ public class App {
 
 
     public static void main(String[] args) {
-        System.setProperty("server.port", "8081");
+        //System.setProperty("server.port", "8081");
         ConfigurableApplicationContext context =  SpringApplication.run(App.class, args);
 
         MotanSwitcherUtil.setSwitcherValue(MotanConstants.REGISTRY_HEARTBEAT_SWITCHER, true);

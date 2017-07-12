@@ -8,7 +8,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="api" />
         <module name="rpcServer" />
-        <module name="userCore" />
         <module name="webApp" />
       </profile>
     </annotationProcessing>
@@ -17,7 +16,7 @@
       <module name="modsWork" target="1.5" />
       <module name="rpcServer" target="1.5" />
       <module name="userCore" target="1.5" />
-      <module name="webApp" target="1.5" />
+      <module name="webApp" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
