@@ -5,6 +5,6 @@ package com.bugull.farm.web;
  * Created by JasonMao on 2017/7/11.
  */
 @Deprecated
-public interface helloApi {
+public interface HelloDemoApi {
     public String hellow();
 }
