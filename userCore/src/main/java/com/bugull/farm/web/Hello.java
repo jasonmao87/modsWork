@@ -16,7 +16,7 @@ import java.util.Map;
 public class Hello {
 
     @MotanReferer
-    helloApi helloApi;
+    HelloDemoApi helloApi;
 
 
     @ResponseBody
